@@ -1,0 +1,30 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+.vs/
+TestResults/
+
+# Node
+node_modules/
+dist/
+build/
+coverage/
+*.log
+
+# Entorno y secretos
+.env
+.env.*
+!.env.example
+
+# Varios
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+.vscode/
+.idea/
+
+# Configuración local del agente
+.claude/settings.local.json
